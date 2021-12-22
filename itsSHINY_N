@@ -1,0 +1,5 @@
+local plr = game.Players.LocalPlayer
+local race = game:GetService("Players")[plr.Name].PlayerStats.Race
+
+
+race.Value = "Human"
